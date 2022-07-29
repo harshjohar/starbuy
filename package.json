@@ -7,8 +7,10 @@
   },
   "dependencies": {
     "cookies-next": "^2.1.1",
+    "firebase": "^9.9.1",
     "i": "^0.3.7",
     "next": "latest",
+    "next-auth": "^4.10.2",
     "npm": "^8.15.1",
     "react": "18.1.0",
     "react-currency-formatter": "^1.1.0",

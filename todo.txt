@@ -7,13 +7,13 @@
 + Building the Product Component +
 + Building the Product Feed Component (2/2) +
 REST
-+ Implementing NextAuth Authentication
-+ Implementing Firebase
-+ Modifying the Header Component
-+ Authorising Redirect URIs
-+ Modifying _app.js
-+ Adding Logged In User Name
-+ Adding Other Authentication Providers
++ Implementing NextAuth Authentication +
++ Implementing Firebase +
++ Modifying the Header Component +
++ Authorising Redirect URIs +
++ Modifying _app.js +
++ Adding Logged In User Name +
++ Adding Other Authentication Providers +
 + Implementing the Basket Page
 + Building the Checkout Page
 + Building the Left Side of Checkout Page (1/2)
