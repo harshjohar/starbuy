@@ -1,13 +1,11 @@
-+ Building the Header Component
-+ Implementing the Fake Store API
-+ Building the Left Side of the Header
-+ Building the Search Bar 
-+ Building the Right Section of the Header
-+ Building the Bottom NavBar
-+ Building the Banner Component
-+ Building the Product Feed Component (1/2)
-+ Building the Product Component
-+ Building the Product Feed Component (2/2)
++ Building the Header Component +
++ Implementing the Fake Store API +
++ Building the Left Side of the Header +
++ Building the Right Section of the Header +
++ Building the Banner Component +
++ Building the Product Feed Component (1/2) +
++ Building the Product Component +
++ Building the Product Feed Component (2/2) +
 REST
 + Implementing NextAuth Authentication
 + Implementing Firebase
