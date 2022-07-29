@@ -10,7 +10,7 @@ function Banner() {
 
             <div className="w-1/2 bg-[#D3E4ED] h-full flex justify-center items-start flex-col pl-[5%]">
                 <p className="font-bold">Just Doped</p>
-                <div className="text-[5rem]">
+                <div className="text-[5rem] font-poppins">
                     <p>Feel</p>
                     <p>Authentic</p>
                     <p>Peace</p>

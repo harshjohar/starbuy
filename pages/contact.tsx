@@ -1,8 +1,11 @@
 import React from 'react'
+import Layout from '../components/layout/Layout'
 
 function contact() {
   return (
-    <div>contact</div>
+    <Layout>
+      
+    </Layout>
   )
 }
 

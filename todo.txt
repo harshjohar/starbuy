@@ -14,15 +14,15 @@ REST
 + Modifying _app.js +
 + Adding Logged In User Name +
 + Adding Other Authentication Providers +
-+ Implementing the Basket Page
-+ Building the Checkout Page
-+ Building the Left Side of Checkout Page (1/2)
-+ Implementing Redux
-+ Add to Basket Functionality
-+ Building the Left Side of Checkout Page (2/2)
-+ Building the CheckoutProduct Component
-+ Implementing Add/Remove Buttons
-+ Building the Right Side of Checkout Page
++ Implementing the Basket Page +
++ Building the Checkout Page +
++ Building the Left Side of Checkout Page (1/2) +
++ Implementing Redux +
++ Add to Basket Functionality +
++ Building the Left Side of Checkout Page (2/2) +
++ Building the CheckoutProduct Component +
++ Implementing Add/Remove Buttons +
++ Building the Right Side of Checkout Page +
 REST
 + Implementing Stripe Checkout
 + Modifying the Checkout Page
