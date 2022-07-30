@@ -4,11 +4,10 @@ import React from "react";
 import Layout from "../components/layout/Layout";
 
 function blog() {
-  const {data : session} = useSession();
     return (
         <Layout>
           <Head>
-            <title>Starbuy | {session?.user?.name}</title>
+            <title>Starbuy | Blog</title>
           </Head>
             <div className="h-[50%] w-full grid place-items-center">
                 <p className="text-[5rem] font-poppins">Coming Soon</p>

@@ -34,8 +34,8 @@ REST
     + `stripe listen --forward-to localhost:3000/api/webhook`
 + Creating the Webhook! +
 + Building the Success Page +
-+ Building the Orders Page (1/2)
-+ Setting up Firebase Database
-+ Building the Orders Page (2/2)
-+ Building the Order Component
-REST IN PEACE
++ Building the Orders Page (1/2) +
++ Setting up Firebase Database +
++ Building the Orders Page (2/2) +
++ Building the Order Component +
+REST IN PEACE🫡
