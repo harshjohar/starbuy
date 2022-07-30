@@ -24,15 +24,16 @@ REST
 + Implementing Add/Remove Buttons +
 + Building the Right Side of Checkout Page +
 REST
-+ Implementing Stripe Checkout
-+ Modifying the Checkout Page
-+ Creating the Checkout Session
-+ Stripe Checkout Demo
-+ Checkout Process Explanation
-+ Explaining Webhook
-+ Integrating Stripe CLI
-+ Creating the Webhook!
-+ Building the Success Page
++ Implementing Stripe Checkout +
++ Modifying the Checkout Page +
++ Creating the Checkout Session +
++ Stripe Checkout Demo +
++ Checkout Process Explanation +
++ Explaining Webhook +
++ Integrating Stripe CLI +
+    + `stripe listen --forward-to localhost:3000/api/webhook`
++ Creating the Webhook! +
++ Building the Success Page +
 + Building the Orders Page (1/2)
 + Setting up Firebase Database
 + Building the Orders Page (2/2)

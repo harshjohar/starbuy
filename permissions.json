@@ -1,0 +1,13 @@
+{
+    "type": "service_account",
+    "project_id": "starbuy-ecommerce",
+    "private_key_id": "5ff186bea92aaef96534c0089b2d78210798f94b",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC2CDTkyf5eZqxK\ndygaolcMwwtUHD0AE+S3bHbXmNucrBSCuCMhsrhowk5BMd95GuNv8XKsmlYlK1Y/\nAXvKMgj3USpLXhQfyt+0u0pekMyIgGr6ppQ1Ye7KnqulkHgo0QomNTtsU+L1pJ3p\n3bv0FIomft51Wy5+uLGSR/Jj/pNnZGq2xCYtB0WchHtVyy4Y184ZuSQKdISLzLBA\n0onwqBAEaHDBQKwblCe9hIjHZcNiM57T5ua6O5YFsO6qC7/jFF3ES3LWo528jCmu\ndxDOEbxiEPjxLkxrpAbxYln3hfnVI5kuleqhgQaADh/SD0NxkJH3jEmgnnayImZr\ncW/wyVlLAgMBAAECggEAHd20KqLm9JTNSTJ1Bq8Cr/oDDnvLmQr/3bBoF0Y3J2TR\nwK4hkCfYkHzrhfrUJZ8/GGDPEHlfZPMlUBUYOxEr3hgXuQyTKgbeiV1T/batjZU0\nTYet4sxR94tCXQRvvT1UTaHc7BB0uRpB5oXA5B0dRY+kmYX/rOmfXiwmcuLpSxnX\nKFXynXw/SHM1OiALyy+3BJdHqs+BbHiQwQoLhkG81l+yJ3uwqqSvME0zYKA5xpxg\nQD0TQd0DZcyD1GvZ3w507VQKY/mYSqj5eViPRA3PPkKUruS87vn647g3ePXSrPzQ\nxISQ/MgRidryltF+aaqkE5EPt1cH/jkJnZJf0T7RgQKBgQDa8jnl3OcYYDxZJXQ3\nK+rSIwCDcRKoku6r1X07qiN0dVbHfLQPQ5AjdLolMjp1UORVTveoEyjo++WDcC80\nYi61CCsRDLLamaIgJeoW6pJ6I8cq42mO6tGMcy2CRC6hm3YFjsCkmx3lmlIcYB2L\nZChKtryI2+PPj2/6zZynLfGSawKBgQDU1q/stm6hNjDrovwdbvYK1BzyxDmF2d6T\nSveNV/6rVUAXFwxAgh2ncPQTm48ldoGUvPJ2f/U0CtQP5FWwbpa+Z8JtHv/BRfYU\nty6SEirBxf+UqDuoWkNdEso3ttV9A2RVQ1zVHGiIgwfS1aqNG1VxwOdK3IkFYrM/\n4/Q9w03MoQKBgBWa33G6SaeTH4Fge8ZR9BsGTy+pQcEWtqyIJZJ0qIj+ZzDKMm5r\nKVcGVrQC79fRwqZUY4XXVisfaDd/I3lU0u0UQEOvcBq4HFJ1y1K1lPyueSHXTPxI\nWaM1XmFDXyKdV5kWzBWyJNIaV03rgh7WJE+zFomewS0jJ1alYXbxxqu/AoGBAJyy\nes8x+P0jopy5YBhjay3JwI5TPW54Ws/ib6NWV57YotjdFR4hLafrFyegbaFNQFW7\nTl9EEckA9+PDXfsJUF5akeA45F7tHSFfRCAy09vZ5DMUMOffnJzXip2+NCtX5fSI\nJb6YrbVjksz8lhZRO3UGasLI3vBiHEo7j8QxGARBAoGARN9GwJVI3yVYoNIPEmKj\n4fZLpXmT0nT4jo3KPA9dmy397Iha0z+Eq54FeY+ADNXiQ5rKnto1JApcs3Q83qyH\nvPXf7Fo/bcA6qekmWuRU1py81ha8uiQNN1Tw/F5/USHyVYHLizXbYJj6PxruOz11\nc62ET/28NY2zJqsgJlyIRbg=\n-----END PRIVATE KEY-----\n",
+    "client_email": "firebase-adminsdk-tuzcl@starbuy-ecommerce.iam.gserviceaccount.com",
+    "client_id": "105349929630814647744",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-tuzcl%40starbuy-ecommerce.iam.gserviceaccount.com"
+  }
+  
