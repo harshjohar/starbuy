@@ -7,10 +7,40 @@ import Layout from "../components/layout/Layout";
 import { selectItems, selectTotal } from "../redux/slices/basketSlice";
 import { Product } from "../typings/Product";
 
+// stripe
+import { loadStripe } from "@stripe/stripe-js";
+import axios from "axios";
+const stripePromise = loadStripe(process.env.stripe_public_key!);
+
 function cart() {
     const items = useSelector(selectItems);
     const { data: session } = useSession();
     const total = useSelector(selectTotal);
+
+    const createCheckoutSession = async () => {
+        const stripe = await stripePromise;
+
+        // call backend to create a checkout session
+        const checkoutSession = await axios.post(
+            "/api/create_checkout_session",
+            {
+                items,
+                email: session?.user?.email,
+            }
+        );
+
+        // redirect user to stripe
+        const result = await stripe?.redirectToCheckout({
+            sessionId: checkoutSession.data.id,
+        })
+
+        if(result?.error) {
+            alert(result.error.message)
+        }
+
+        
+    };
+
     return (
         <Layout>
             <Head>
@@ -47,7 +77,7 @@ function cart() {
                                         "from-gray-300 to-gray-500 border-gray-200 cursor-not-allowed text-gray-200"
                                     }`}
                                     role="link"
-                                    // onClick={createCheckoutSession}
+                                    onClick={createCheckoutSession}
                                 >
                                     {!session
                                         ? "Sign in to checkout"
