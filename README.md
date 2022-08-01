@@ -35,3 +35,9 @@ When the payment is successful, a webhook is triggered which stores the order in
 
 ### User authentication
 This part of the website is built on top of the `next-auth` library provided by the nextjs.
+
+## Snapshots of the website
+<img src="./demo/1.png">
+<img src="./demo/2.png">
+<img src="./demo/3.png">
+<img src="./demo/4.png">
