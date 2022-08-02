@@ -6,6 +6,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@lottiefiles/lottie-player": "^1.5.7",
     "@reduxjs/toolkit": "^1.8.3",
     "@stripe/stripe-js": "^1.34.0",
     "axios": "^0.27.2",
