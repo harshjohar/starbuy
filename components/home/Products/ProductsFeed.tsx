@@ -2,7 +2,7 @@ import React from "react";
 import { Product } from "../../../typings/Product";
 import ProductCard from "./Product";
 
-function ProductsFeed({ products }: { products: [Product] }) {
+function ProductsFeed({ products }: { products: [Product] | [] }) {
     return (
         <div className="grid grid-flow-row-dense md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mx-auto">
             {products.slice(0, 4).map((product) => (

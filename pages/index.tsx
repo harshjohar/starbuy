@@ -1,10 +1,33 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import { useEffect, useState } from "react";
 import Banner from "../components/home/Banner";
 import ProductsFeed from "../components/home/Products/ProductsFeed";
 import Layout from "../components/layout/Layout";
+import { Product } from "../typings/Product";
 
-const Home: NextPage = ({products}: any) => {
+const Home: NextPage = () => {
+    const [products, setProducts] = useState<[Product] | []>([]);
+
+    const getProducts = () => {
+        fetch("/data/store.json", {
+            headers: {
+                "Content-Type": "application/json",
+                Accept: "application/json",
+            },
+        })
+            .then(function (response) {
+                return response.json();
+            })
+            .then(function (p) {
+                setProducts(p);
+            });
+    };
+
+    useEffect(() => {
+        getProducts();
+    });
+
     return (
         <Layout>
             <Head>
@@ -14,22 +37,10 @@ const Home: NextPage = ({products}: any) => {
 
             <main className="w-full">
                 <Banner />
-                <ProductsFeed products = {products} />
+                <ProductsFeed products={products} />
             </main>
         </Layout>
     );
 };
 
 export default Home;
-
-export async function getServerSideProps(context: any) {
-    const products = await fetch("https://jsonkeeper.com/b/NOTU", {
-        method: "GET",
-    }).then((res) => res.json());
-
-    return {
-        props: {
-            products,
-        },
-    };
-}

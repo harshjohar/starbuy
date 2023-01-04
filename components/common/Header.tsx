@@ -14,10 +14,7 @@ function Header() {
                     <Link href={"/"}>Home</Link>
                 </li>
                 <li className="cursor-pointer hover:underline transition underline-offset-4">
-                    <Link href={"/blog"}>Blog</Link>
-                </li>
-                <li className="cursor-pointer hover:underline transition underline-offset-4">
-                    <Link href={"/contact"}>Contact</Link>
+                    <Link href={"/orders"}>Orders</Link>
                 </li>
             </ul>
 

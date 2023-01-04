@@ -22,7 +22,7 @@ function Banner() {
             </div>
 
             <div className="w-1/2 bg-starbuy-product h-full">
-                <img src="/assets/images/banner.gif" alt="" className="h-full w-full object-cover" />
+                <img src="/assets/images/banner.png" alt="" className="h-full w-full object-cover" />
             </div>
         </div>
     );
